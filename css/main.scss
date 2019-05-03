@@ -1,0 +1,25 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+
+header {
+  background: blue;
+  color: white;
+}
+
+main {
+  button {
+    background: red;
+    color: white;
+    @include rounded();
+
+    &:hover {
+      background: green;
+    }
+  }
+  p {
+    width: 25vw;
+    font-family: $font;
+    font-weight: $bold;
+    
+  }
+}
