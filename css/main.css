@@ -1,17 +1,22 @@
 header {
   background: blue;
-  color: white; }
+  color: white;
+}
 
 main button {
   background: red;
   color: white;
   border: 5px solid black;
-  border-radius: 12px; }
+  border-radius: 12px;
+}
 
 main button:hover {
-  background: green; }
+  background: green;
+}
 
 main p {
   width: 25vw;
   font-family: cursive;
-  font-weight: 800; }
+  font-weight: 800;
+}
+/*# sourceMappingURL=main.css.map */
